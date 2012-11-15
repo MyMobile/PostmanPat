@@ -28,5 +28,12 @@ namespace PostmanPat.Controllers
 
             return View();
         }
+
+        public ActionResult Delete()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View("Contact");
+        }
     }
 }
