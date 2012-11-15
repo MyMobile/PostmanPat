@@ -29,7 +29,7 @@ namespace PostmanPat.Controllers
             return View();
         }
 
-        public ActionResult Delete()
+        public ActionResult Edit()
         {
             ViewBag.Message = "Your contact page.";
 
